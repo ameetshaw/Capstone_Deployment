@@ -1,0 +1,24 @@
+{
+  "name": "campaigns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameetshaw/Capstone_Deployment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ameetshaw/Capstone_Deployment/issues"
+  },
+  "homepage": "https://github.com/ameetshaw/Capstone_Deployment#readme",
+  "devDependencies": {
+    "serverless-python-requirements": "^5.1.1",
+    "serverless-wsgi": "^2.0.2"
+  }
+}
