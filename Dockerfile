@@ -12,7 +12,7 @@ RUN pip install -r ./requirements.txt
 COPY app.py .
 COPY *.pkl ./
 COPY templates/*.html ./templates/
-COPY events_data.csv .
+COPY events_test.csv .
 
 # Set "python" as the entry point
 ENTRYPOINT ["python"]
