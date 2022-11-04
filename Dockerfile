@@ -10,7 +10,7 @@ RUN pip install -r ./requirements.txt
 
 # Copy local folder into the container
 COPY app.py .
-COPY *.pkl ./
+COPY *.sav ./
 COPY templates/*.html ./templates/
 COPY events_test.csv .
 
